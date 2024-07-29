@@ -1,0 +1,39 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 102 and seed 856555524384003692 with 4 workers on 8 cores with 1524MB heap and 64MB offheap memory [pid: 8943] (Linux 6.2.0-26-generic amd64, AdoptOpenJDK 14.0.1 x86_64, NoopFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/dario/tla/PlusCal Tutorial/session4/SillyTupleMax.toolbox/Model_1/MC.tla
+Parsing file /home/dario/tla/PlusCal Tutorial/session4/SillyTupleMax.toolbox/Model_1/SillyTupleMax.tla
+Labels added.
+Parsing file /opt/TLA+Toolbox/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /opt/TLA+Toolbox/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /opt/TLA+Toolbox/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /opt/TLA+Toolbox/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /opt/TLA+Toolbox/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module SillyTupleMax
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-07-28 21:36:00)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2105:1 @!@!@
+Evaluating assumption line 20, col 8 to line 20, col 66 of module MC failed.
+TLC encountered a non-enumerable quantifier bound
+Int.
+line 16, col 38 to line 16, col 40 of module MC
+@!@!@ENDMSG 2105 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 852ms at (2024-07-28 21:36:00)
+@!@!@ENDMSG 2186 @!@!@
